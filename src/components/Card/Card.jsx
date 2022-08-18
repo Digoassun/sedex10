@@ -1,4 +1,4 @@
-import React from 'react'
+import React,{useState} from 'react'
 
 const Card = ({cep, logradouro, complemento, bairro, localidade, uf}) => {
   return (

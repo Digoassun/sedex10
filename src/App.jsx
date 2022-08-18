@@ -1,13 +1,19 @@
-import './App.css'
-import Forms from './components/Forms/Forms'
+import React,{useState} from 'react'
+
+import "./App.css";
+import Card from "./components/Card/Card";
+import Forms from "./components/Forms/Forms";
 
 function App() {
 
+  const [req, setReq] = useState()
+
   return (
     <div className="App">
-     <Forms/>
+      <Forms/>
+      <Card/>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
