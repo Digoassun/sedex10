@@ -30,7 +30,7 @@ function App() {
         localidade={req ? req.localidade : ""}
         uf={req ? req.uf : ""}
       />
-      <Hist hist={hist? hist:""}/>
+      <Hist hist={hist? [...hist]:""}/>
     </div>
   );
 }
